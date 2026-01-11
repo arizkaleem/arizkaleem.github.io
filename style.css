@@ -1,0 +1,128 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BASE */
+body {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: linear-gradient(135deg, #fff1f5, #f8fafc);
+  color: #1f2933;
+  line-height: 1.65;
+}
+
+/* GLOBAL LAYOUT (REDUCED SPACING) */
+header, section, footer {
+  max-width: 900px;
+  margin: auto;
+  padding: 36px 24px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 2.7rem;
+  font-weight: 700;
+  letter-spacing: -0.6px;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 1.05rem;
+  color: #475569;
+}
+
+/* HEADINGS */
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+  padding-left: 12px;
+  border-left: 4px solid #ec4899;
+}
+
+/* ABOUT */
+.about p {
+  font-size: 1.03rem;
+  color: #334155;
+}
+
+/* SKILLS */
+.skills ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+}
+
+.skills li {
+  list-style: none;
+  background: #ffe4ec;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+/* CARDS */
+.experience-item,
+.project-card {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 14px;
+  margin-bottom: 18px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.06);
+}
+
+.experience-item h3,
+.project-card h3 {
+  margin-bottom: 6px;
+}
+
+/* PROJECTS */
+.project-card ul {
+  margin: 10px 0;
+  padding-left: 18px;
+}
+
+.project-links a {
+  color: #ec4899;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+/* CONTACT */
+.contact p {
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: #ec4899;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.linkedin-icon {
+  width: 24px;
+  vertical-align: middle;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  color: #64748b;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
